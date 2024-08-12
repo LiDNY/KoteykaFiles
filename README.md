@@ -1,11 +1,15 @@
-# Koteyka Files 
+# Koteykas Files 
 
-Current version: v1.0, Build 6
+Koteyka's Files is a small and simple website for uploading files, it has a dark theme and a language selection in the settings (Russian, English, German, Greek, Chinese and Arabic)
+
+Current version: v1.0.1, Build 7
 
 Screenshot of it on Windows 10
+
 ![image](https://github.com/user-attachments/assets/e2c55aea-3db7-4a67-b3ce-cc38561e1b3b)
 
 Screenshot of it on ChromeOS
+
 ![image](https://github.com/user-attachments/assets/866dc7bc-042d-48ba-a925-d22e64f774af)
 
 # Support / Help
