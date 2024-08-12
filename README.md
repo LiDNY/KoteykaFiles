@@ -1,4 +1,4 @@
-# Koteykas Files 
+# Koteyka's Files 
 
 Koteyka's Files is a small and simple website for uploading files, it has a dark theme and a language selection in the settings (Russian, English, German, Greek, Chinese and Arabic)
 
