@@ -8,4 +8,6 @@ Screenshot of it on Windows 10
 Screenshot of it on ChromeOS
 ![image](https://github.com/user-attachments/assets/866dc7bc-042d-48ba-a925-d22e64f774af)
 
-Refer to the wiki if u need any help
+# Support / Help
+
+Refer to the wiki if u need any help, if there isn't anything that helps you join our [discord](http://discord.lidny.online) and ask ur question there
