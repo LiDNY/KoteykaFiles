@@ -14,4 +14,4 @@ Screenshot of it on ChromeOS
 
 # Support / Help
 
-Refer to the wiki if u need any help, if there isn't anything that helps you join our [discord](http://discord.lidny.online) and ask ur question there
+Refer to the [http://discord.lidny.online](https://github.com/SonicPikaLiDNY/KoteykaFiles/wiki) if u need any help, if there isn't anything that helps you join our [Discord](http://discord.lidny.online) and ask ur question there
