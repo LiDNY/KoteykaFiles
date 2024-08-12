@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koteyka's Files</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="settingsButton" class="settings-button">⚙️</button>
+        <div id="settingsMenu" class="settings-menu">
+            <h2>Settings</h2>
+            <label for="languageSelect">Select Language:</label>
+            <select id="languageSelect" name="language">
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+                <option value="ru">Русский</option>
+                <option value="el">ελληνικά</option>
+                <option value="cn">中國人</option>
+                <option value="ar">عربي</option>
+            </select>
+        </div>
+        <h1>Koteyka's Files</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="fileInput" name="file" required>
+            <button type="submit">Upload</button>
+        </form>
+        <h2>Uploaded Files</h2>
+        <ul id="fileList"></ul>
+        <label for="version">This server is running KF Version 1.0 release - Build 6 - Built on Aug 12 2024</label>
+    </div>
+    <div id="previewModal" class="modal">
+        <div class="modal-content">
+            <button id="closeModal" class="close-button">X</button>
+            <div id="previewContainer"></div>
+            <a id="downloadButton" href="#" download class="download-button">Download</a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
