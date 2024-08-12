@@ -49,10 +49,11 @@ console.log(`Sub-links loaded`);
 app.listen(port, () => {
   console.log(`_____________________________________________________`);
   console.log(`Website now running at http://localhost:${port}/ :3`);
+  console.log(`Ur version is v1.0 release - Build 6`);
   console.log(`_____________________________________________________`);
-  console.log(`Updates at https://sp.lidny.xyz - v1.0 release`);
+  console.log(`Updates at [website is currently down sorry]`);
   console.log(`My socials:`);
   console.log(`YT: https://youtube.com/@SonicPika._.`);
-  console.log(`GitHub: https://github.com/sonicpikalol`);
+  console.log(`GitHub: https://github.com/sonicpikalidny`);
   console.log(`_____________________________________________________`);
 });
