@@ -24,12 +24,17 @@
         </div>
         <h1>Koteyka's Files</h1>
         <form id="uploadForm" enctype="multipart/form-data">
+    <div id="progressContainer" style="display:none;">
+        <div id="progressBar" class="progress-bar"></div>
+        <span id="progressPercent">0%</span>
+    </div>
+
             <input type="file" id="fileInput" name="file" required>
             <button type="submit">Upload</button>
         </form>
-        <h2>Uploaded Files</h2>
+        <h2>Uploaded Files</h2><button id="reloadButton" class="reload-button">Reload</button>
         <ul id="fileList"></ul>
-        <label for="version">This server is running KF Version 1.0.1 release - Build 7 - Built on Aug 12 2024</label>
+        <label for="version">This server is running KF Version 1.1 release - Build 8 - Built on Aug 12 2024</label>
     </div>
     <div id="previewModal" class="modal">
         <div class="modal-content">
