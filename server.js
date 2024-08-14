@@ -1,4 +1,4 @@
-// Last updated in Build 7 (v1.0.1) 
+// Last updated in Build 8 (v1.1) 
 
 console.log(`Website Loading`);
 
@@ -49,7 +49,7 @@ console.log(`Sub-links loaded`);
 app.listen(port, () => {
   console.log(`_____________________________________________________`);
   console.log(`Website now running at http://localhost:${port}/ :3`);
-  console.log(`Ur version is v1.0 release - Build 6`);
+  console.log(`Ur version is v1.1 release - Build 8`);
   console.log(`_____________________________________________________`);
   console.log(`Updates at [website is currently down sorry]`);
   console.log(`My socials:`);
