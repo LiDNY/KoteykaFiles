@@ -118,6 +118,34 @@ document.addEventListener('DOMContentLoaded', () => {
         previewModal.style.display = 'none';
     });
 
+    document.getElementById('uploadForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const fileInput = document.getElementById('fileInput');
+    const formData = new FormData();
+    formData.append('file', fileInput.files[0]);
+
+    const xhr = new XMLHttpRequest();
+
+    xhr.upload.addEventListener('progress', function (e) {
+        const percent = Math.round((e.loaded / e.total) * 100);
+        document.getElementById('progressBar').style.width = percent + '%';
+        document.getElementById('progressPercent').textContent = percent + '%';
+    });
+
+    xhr.addEventListener('load', function () {
+        document.getElementById('progressContainer').style.display = 'none';
+        alert('Upload complete!');
+        location.reload();
+    });
+
+    xhr.open('POST', '/upload', true);
+    xhr.send(formData);
+
+    document.getElementById('progressContainer').style.display = 'flex';
+});
+
+
     const updateContent = (language) => {
         const lang = translations[language] || translations.en;
         document.querySelector('h1').textContent = lang.title;
@@ -134,5 +162,10 @@ document.addEventListener('DOMContentLoaded', () => {
         updateContent(e.target.value);
     });
 
+document.getElementById('reloadButton').addEventListener('click', function () {
+    location.reload();
+});
+
+    
     loadFiles();
 });
