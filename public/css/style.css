@@ -181,3 +181,40 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
  }
+#progressContainer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #bb86fc;
+    border-radius: 4px;
+    transition: width 0.3s;
+    flex-grow: 1;
+}
+
+#progressPercent {
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+.reload-button {
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #bb86fc;
+    color: #121212;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reload-button:hover {
+    background-color: #9e79d9;
+}
+
