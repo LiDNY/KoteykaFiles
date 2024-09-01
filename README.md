@@ -16,6 +16,12 @@ Refer to the [Wiki](https://github.com/SonicPikaLiDNY/KoteykaFiles/wiki) if u ne
 
 # Project Status:
 
+Requirements: 
+
+To host: Semi-Good PC (around i3 2nd gen) and 2 GB Ram 
+
+To use: A browser (Chrome around 50, FireFox also around 50)
+
 Current version: v1.1, Build 8
 
 Development: inactive
