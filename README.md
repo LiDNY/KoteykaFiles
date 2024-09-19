@@ -26,4 +26,4 @@ Current version: v1.1, Build 8
 
 Development: inactive
 
-Developers: [SonicPika](https://github.com/SonicPikaLiDNY)
+Developers: [SonicPika](https://github.com/SonicPikaLiDNY) and Maxim (no github account)
