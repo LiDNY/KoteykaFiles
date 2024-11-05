@@ -1,5 +1,8 @@
 # Koteyka's Files 
 
+> [!WARNING]
+> LiDNY has shutdown, also killing support for all the apps under it's name, including Koteyka Files, meaning no security or feature updates, i would lean to other options, if possible
+
 Koteyka's Files is a small and simple website for uploading files, it has a dark theme and a language selection in the settings (Russian, English, German, Greek, Chinese and Arabic)
 
 Screenshot of it on Windows 10
